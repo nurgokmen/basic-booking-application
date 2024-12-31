@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="basic.MethodAddUser">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="3" vgap="3">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="-12" y="-5" width="381" height="150"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="true"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <component id="c0fb3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="3" use-parent-layout="false">
+            <preferred-size width="220" height="39"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15437407"/>
+          <font name="Monospaced" style="0"/>
+          <foreground color="-1757135"/>
+          <horizontalAlignment value="10"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Enter the ID of the Gold User:"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="43f03" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" style="0"/>
+          <foreground color="-1757135"/>
+          <text value="Enter the gold Level:"/>
+        </properties>
+      </component>
+      <component id="b881" class="javax.swing.JTextField" binding="id">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-11912132"/>
+          <dragEnabled value="true"/>
+          <font name="Monospaced" style="0"/>
+          <horizontalAlignment value="11"/>
+          <inheritsPopupMenu value="true"/>
+        </properties>
+      </component>
+      <component id="427fc" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11912132"/>
+        </properties>
+      </component>
+      <component id="fdd52" class="javax.swing.JButton" binding="AddGoldUserB">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15437407"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <doubleBuffered value="true"/>
+          <focusCycleRoot value="false"/>
+          <focusPainted value="true"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <focusable value="true"/>
+          <font name="Monospaced" size="18" style="1"/>
+          <foreground color="-1760508"/>
+          <iconTextGap value="4"/>
+          <opaque value="true"/>
+          <text value="Add User"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
